@@ -6,8 +6,8 @@ function NavBar({Theme, setTheme}) {
   
     const [sideBarOpen,setSideBarOpen]=useState(true)
   return (
-    <div className='flex justify-between items-center px-4 sm:px-12 lg:px-24
-    xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50
+    <div className='flex justify-between items-center  px-4 sm:px-12 lg:px-24
+    xl:px-40 py-0 -mt-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50
     dark:bg-black'>
 
 
