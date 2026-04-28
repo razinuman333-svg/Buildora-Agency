@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar'
 import Hero from './Components/Hero'
 import Trustedby from './Components/Trustedby'
 import Services from './Components/Services'
+import OurWork from './Components/OurWork'
 
 function App() {
  const [Theme,setTheme] = useState('light')
@@ -15,6 +16,7 @@ function App() {
   <Hero/>
   <Trustedby/>
   <Services/>
+  <OurWork/>
  </div>
   )
 }
