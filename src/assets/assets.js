@@ -37,10 +37,12 @@ export const company_logos = [
   rakuten_logo,
   coinbase_logo,
   airbnb_logo,
-  google_logo,
+     google_logo,
+ 
 ]
 
 const assets = {
+
   whitebg,
   arrow_icon,
   group_profile,
