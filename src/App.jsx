@@ -6,6 +6,7 @@ import Hero from './Components/Hero'
 import Trustedby from './Components/Trustedby'
 import Services from './Components/Services'
 import OurWork from './Components/OurWork'
+import Team from './Components/Team'
 
 function App() {
  const [Theme,setTheme] = useState('light')
@@ -17,6 +18,7 @@ function App() {
   <Trustedby/>
   <Services/>
   <OurWork/>
+  <Team/>
  </div>
   )
 }
