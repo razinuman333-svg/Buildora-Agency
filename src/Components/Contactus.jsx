@@ -59,7 +59,7 @@ function Contactus() {
             </div>
             <div className='sm:col-span-2'>
                  <p className='mb-2 text-sm font-medium'>Message</p>
-                 <textarea name='message' required className='focus-within:border-blue-500 w-full p-3 text-sm outline-none  rounded-lg border-gray-300 dark:border-gray-600' rows={8} placeholder='Enter your message'/>
+                 <textarea name='message' required className='focus-within:border-blue-500 w-full p-3 text-sm outline-none  rounded-lg border border-gray-300 dark:border-gray-600' rows={8} placeholder='Enter your message'/>
             </div>
             <button className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103
             transition-all' type='submit'>
