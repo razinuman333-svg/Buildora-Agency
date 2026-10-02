@@ -11,7 +11,7 @@ function NavBar({Theme, setTheme}) {
     dark:bg-black'>
 
 
-        <img className='w-32 sm:w-40' src={Theme === 'dark' ? assets.blackbg : assets.whitebg}></img>
+        <img className=' h-27 w-32 sm:w-40' src={Theme === 'dark' ? assets.blackbg : assets.whitebg}></img>
 
 
         <div className={`text-gray-700 dark:text-white sm:text-sm ${sideBarOpen ? 'max-sm:w-60 max-sm:pl-10':' max-sm:w-0 overflow-hidden'} max-sm:fixed
